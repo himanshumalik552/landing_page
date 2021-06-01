@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e5e5e5;
+}
+/* ================NAVE BAR================ */
+
+.rounded-pill {
+  height: 120px;
+  padding-right: 20%;
+}
+.nav-item {
+  padding-left: 3.5rem;
+  font-weight: 400;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.navbar {
+  background-color: #fff !important ;
+}
+.btn-get-started {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 7px 25px;
+  border-radius: 50px;
+  border: 2px solid #3498db;
+  transition: 0.5s;
+  background: #3498db;
+  color: #fff;
+  text-decoration: none;
+}
+.btn-get-started:hover {
+  background: #091b5373;
+  color: rgb(243, 230, 230);
+}
+@media (max-width: 991px) {
+  .navbar a {
+    font-size: 1.3rem;
+    text-transform: capitalize;
+  }
+
+  .menu_active {
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+  }
+  .navbar a:hover {
+    color: #565387 !important;
+  }
+}
+
+/* ============Main Header Section============ */
+
+@media (max-width: 991px) {
+  #header {
+    height: 60vh;
+    text-align: center;
+    margin-bottom: 50px;
+    background: #e5e5e5;
+  }
+  #header .header-img {
+    text-align: center;
+  }
+  #header .header-img img {
+    width: 60%;
+  }
+}
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 35px;
+  font-weight: 700;
+  color: black;
+}
+
+#header h2 {
+  color: #484848;
+  font-size: 24px;
+}
+
+.brand_name {
+  /* Let’s Find that Best Candidate... */
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -1px;
+
+  /* Black */
+  color: #2d3436;
+}
+#header .btn-get-started {
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 60px;
+  border-radius: 96px;
+  border: 2px solid #3498db;
+  transition: 0.5s;
+  background: #6c5ce7;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+}
+#header .btn-get-started:hover {
+  background: #dedde7;
+  color: rgb(102, 20, 20);
+}
+
+.Outer_play_div {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+.inner_play_div {
+  width: 574px;
+  height: 300px;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.play_btn {
+  margin: auto;
+}
+/* ================= */
+.h3_text {
+  margin-top: 150px;
+  text-align: center;
+}
+
+/* ============ Section 1============ */
+
+.section1 {
+  background: #e5e5e5;
+}
+.section1 h1 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  /* identical to box height */
+
+  letter-spacing: -1px;
+
+  /* Black */
+
+  color: #2d3436;
+}
+.S1_outer {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+}
+.S1_inner {
+  margin: auto;
+  width: 360px;
+  height: 200px;
+}
+.S1_inner h6 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.005em;
+
+  /* Black */
+
+  color: #2d3436;
+}
+
+.S1_link {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+  letter-spacing: 0.005em;
+  text-decoration-line: underline;
+  color: #6c5ce7;
+}
+/*=============Section-2===========*/
+#section2 {
+  margin-top: 50px;
+}
+.S2_outer {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+.S2_inner {
+  margin: auto;
+  width: 400px;
+}
+
+.S2_inner h4 {
+  /* Not Just that.. */
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -1px;
+
+  color: #000000;
+}
+.S2_inner p{
+font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+display: flex;
+align-items: center;
+letter-spacing: 0.005em;
+color: #000000;
+}
+.vertical{
+  border:2px solid green; 
+  height: 220px;
+  width: 10px;
+}
+/*section-3*/
+#section3 {
+  margin-top: 50px;
+}
+.S3_outer {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+.S3_inner {
+  margin: auto;
+  width: 400px;
+}
+
+.S3_inner h4 {
+  /* Not Just that.. */
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -1px;
+
+  color: #000000;
+}
+.S3_inner p{
+font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+display: flex;
+align-items: center;
+letter-spacing: 0.005em;
+color: #000000;
+}
