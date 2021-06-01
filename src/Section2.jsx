@@ -1,5 +1,5 @@
 import React from "react";
-//import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./section2.css";
 import section from "./img/section2.jpg";
 
@@ -76,7 +76,9 @@ const Section2 = () => {
                     <br />
                     career path planning for job seeking individuals...
                   </p>
-                  <button type="submit">Apply</button>
+                  <NavLink className="btn-get-started" to="/Service">
+                      Get Started
+                    </NavLink>
                 </div>
               </div>
             </div>

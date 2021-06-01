@@ -40,7 +40,7 @@
   background: #091b5373;
   color: rgb(243, 230, 230);
 }
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
   .navbar a {
     font-size: 1.3rem;
     text-transform: capitalize;
@@ -53,11 +53,11 @@
   .navbar a:hover {
     color: #565387 !important;
   }
-}
+} */
 
 /* ============Main Header Section============ */
 
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
   #header {
     height: 60vh;
     text-align: center;
@@ -70,7 +70,7 @@
   #header .header-img img {
     width: 60%;
   }
-}
+} */
 #header h1 {
   margin: 0 0 10px 0;
   font-size: 35px;
