@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #e5e5e5;
 }
 /* ================NAVE BAR================ */
 
@@ -126,7 +125,7 @@
   width: 574px;
   height: 300px;
   margin: auto;
-  border: 2px solid black;
+  border: 1.5px solid #786ae9;
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -167,8 +166,8 @@
 }
 .S1_inner {
   margin: auto;
-  width: 360px;
-  height: 200px;
+  width: 471px;
+  height: 229px;
 }
 .S1_inner h6 {
   font-family: Mulish;
@@ -199,7 +198,7 @@
   margin-top: 50px;
 }
 .S2_outer {
-  height: 500px;
+  height: 630px;
   display: flex;
   justify-content: center;
 }
@@ -222,37 +221,38 @@
 
   color: #000000;
 }
-.S2_inner p{
-font-family: Mulish;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 30px;
-display: flex;
-align-items: center;
-letter-spacing: 0.005em;
-color: #000000;
+.S2_inner p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.005em;
+  color: #000000;
 }
-.vertical{
-  border:2px solid green; 
+.vertical {
+  border: 2px solid green;
   height: 220px;
   width: 10px;
 }
-/*section-3*/
+/*===================section-3=============*/
 #section3 {
   margin-top: 50px;
 }
 .S3_outer {
+  width: 600px;
   height: 500px;
   display: flex;
   justify-content: center;
 }
 .S3_inner {
   margin: auto;
-  width: 400px;
+  width: 500px;
 }
 
-.S3_inner h4 {
+#section3 .S3_inner h4 {
   /* Not Just that.. */
 
   font-family: Mulish;
@@ -260,20 +260,99 @@ color: #000000;
   font-weight: bold;
   font-size: 28px;
   line-height: 30px;
-  display: flex;
-  align-items: center;
   letter-spacing: -1px;
 
   color: #000000;
 }
-.S3_inner p{
+#section3 .S3_inner p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.005em;
+  color: #000000;
+}
+
+/*===================section-4=============*/
+#section4 p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 33px;
+  letter-spacing: 0.005em;
+  color: #2d3436;
+}
+#section4 h4 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.5px;
+  color: #2d3436;
+}
+
+/* =========Section 5 =========*/
+
+.S5_inner h4 {
+  /* Save Time & Money */
+  margin-top: 25px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.25px;
+  color: #2d3436;
+}
+.S5_inner p {
+  margin-top: 20px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.005em;
+  color: #2d3436;
+}
+
+
+/* ========Section 6==== */
+
+#section6 .S6_outer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#section6 .S6_inner {
+  text-align: center;
+  margin: auto;
+  width: 600px;
+}
+#section6 .S6_inner h1{
+font-family: Mulish;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 60px;
+letter-spacing: -1px;
+color: #000000;
+}
+#section6 .S6_inner p{
+  margin-top: 30px;
+  margin-bottom: 10px;
 font-family: Mulish;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
+font-size: 24px;
 line-height: 30px;
-display: flex;
-align-items: center;
 letter-spacing: 0.005em;
 color: #000000;
+}
+#section6 .S6_inner .S6_btn{
+  margin-top: 20px;
 }

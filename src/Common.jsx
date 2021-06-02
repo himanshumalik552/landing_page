@@ -1,7 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Section2 from "./Section2";
-
+import Play from '@material-ui/icons/PlayCircleOutlineSharp';
+import CheckCircle from '@material-ui/icons/CheckCircleOutlineSharp';
+import SentimentSatis from '@material-ui/icons/SentimentSatisfiedAltSharp';
 const Common = () => {
   return (
     <>
@@ -29,7 +31,7 @@ const Common = () => {
                 <div className="col-lg-6  order-lg-5 Outer_play_div">
                   <div className="inner_play_div">
                     <div className="play_btn">
-                      <h1>PLAY</h1>
+                      <Play   style={{ fontSize: 80 , color:"#6C5CE7" }} />
                     </div>
                   </div>
                 </div>
@@ -50,7 +52,9 @@ const Common = () => {
 
               <div className=" col-md-6 S1_outer">
               <div className="S1_inner">
+
                 <h1 className="mt-5">
+                <SentimentSatis style={{fontSize: 50 , margin:"0px 5px 10px ", color:"#6C5CE7"}} />
                 Source Widely, 
                 </h1>
                 <h6 className="my-4">
@@ -64,7 +68,9 @@ const Common = () => {
 
               <div className=" col-md-6  S1_outer">
               <div className="S1_inner">
-                <h1 className="mt-5">
+    
+               <h1 className="mt-5">
+               <CheckCircle style={{fontSize: 50 , margin:"0px 5px 10px ", color:"#6C5CE7"}}/>
                 Screen Confidently. 
                 </h1>
                 <h6 className="my-4">
