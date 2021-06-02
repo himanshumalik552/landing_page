@@ -47,7 +47,7 @@ const Navbar = () => {
                   </li>
                 
                   <li className="nav-item">
-              <NavLink className="btn-get-started" to='/Service'>Get Started</NavLink>
+              <NavLink className="btn-get-started" to='/Service'>SignUp</NavLink>
                   </li>
                 </ul>
               </div>
